@@ -2,4 +2,10 @@
 My dotfiles, installable using [Stow](http://www.gnu.org/software/stow/ "GNU Stow").
 
 # zsh
-Install [OhMyZsh](https://ohmyz.sh/ "OhMyZsh") with [auto suggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md "zsh-autosuggestions") and [syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md "zsh-syntax-highlighting") plugins. Install [powerLevel10K](https://github.com/romkatv/powerlevel10k?tab=readme-ov-file#getting-started "powerLevel10K") theme, following the instructions to install the recommended font.
+Clone the following dependencies:
+
+`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/.zsh/powerlevel10k`
+
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.zsh/zsh-syntax-highlighting`
+
+`git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions`
