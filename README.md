@@ -7,7 +7,9 @@ stow .
 ```
 
 # zsh
-Clone the following dependencies:
+Install [zoxide](https://github.com/ajeetdsouza/zoxide?tab=readme-ov-file#installation).
+
+Clone the following theme and plugins:
 ```
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZDOTDIR/themes/powerlevel10k
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZDOTDIR/plugins/zsh-syntax-highlighting

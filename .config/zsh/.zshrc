@@ -25,3 +25,6 @@ source $ZDOTDIR/plugins/zsh-history-substring-search/zsh-history-substring-searc
 # keybinds
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
+
+# zoxide
+eval "$(zoxide init zsh)"
